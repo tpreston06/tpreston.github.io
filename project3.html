@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="project3.css">
+    <title>Project 3</title>
+    </head>
+    <body>
+
+      <h1 align="center">GUESS MY NUMBER</h1>
+      <h3 align="center">Guess the number between 1 and 100</h3>
+
+
+      <div class="bigContainer">
+        <br>
+        <div class="row justify-content-between">
+            <div class="highScore">
+                  <p class="score" align="center" id="currentScore">Score:</p>
+                  <p class="hgScore">High Score: <p id="message2"</p></p>
+            </div>
+            <br>
+            <div class="scoreReset">
+               <button class="scoreReset">Reset</button>
+            </div>
+        </div>
+
+       <br><br><br><br><br>
+      <div class="justify-content-center">
+        <div class="brownBox">
+          <img src="https://spng.pngfind.com/pngs/s/23-239616_anime-girl-confused-png-transparent-png.png" alt="Confused Image">
+          <form>
+            <input type="text" id="guessNum" placeholder="Guess a Number" align="center">
+          </form>
+          <button class="check" onclick="play()">Check</button>
+          <p align="center" style="color:white;"><span>Guess a Number</span></p>
+        </div>
+
+        <div class="guessHistory">
+          <p>Guess History</p>
+          <p id="guessHist"></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="testProject3.js" type="text/javascript"></script>
+    </body>
+    </html>

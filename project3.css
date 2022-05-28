@@ -1,0 +1,94 @@
+body{
+  background-color: aqua;
+}
+
+.bigContainer{
+  background-color: white;
+  border-radius: 8px;
+  width: 600px;
+  height: 490px;
+  margin:auto;
+  align-items: center;
+}
+
+.highScore{
+  background-color: lightpink;
+  border-radius: 8px;
+  width: 20%;
+  height: 20%;
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.scoreReset{
+  background-color: lightpink;
+  border-radius: 8px;
+  border: none;
+  width: 125px;
+  height: 50px;
+  float: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 3%;
+}
+
+.guessHistory{
+  background-color: aqua;
+  border-radius: 8px;
+  width: 325px;
+  height: 50px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.brownBox{
+  background-color: rgb(191, 142, 86);
+  border-radius: 10px;
+  width: 400px;
+  height: 280px;
+  margin: auto;
+  justify-items: center;
+}
+
+img{
+  width:100px;
+  height: 110px;
+  margin-top: 3%;
+  margin-left: 38%;
+  margin-right: 25%;
+}
+
+a{
+  text-decoration: none;
+}
+
+input[type=text]{
+  border-radius: 23px;
+  border: none;
+  width: 170px;
+  height: 40px;
+  margin-top: 3%;
+  margin-left: 28%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.check{
+  background-color: green;
+  border-radius: 8px;
+  border: none;
+  width: 65px;
+  height: 28px;
+  margin-top: 3%;
+  margin-left: 42%;
+  margin-right: 33%;
+  color: white;
+}
+
+p{
+  font-family: sans-serif;
+  font-weight: bold;
+}
